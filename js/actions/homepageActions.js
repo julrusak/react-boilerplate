@@ -1,11 +1,11 @@
 import * as types from './actionTypes';
-import HomepageApi from '../api/HomepageApi';
+import HomePageApi from '../api/HomePageApi';
 
-export function loadHomepageSuccess(data) {
+export function loadHomePageSuccess(data) {
 	return {type: types.LOAD_HOMEPAGE_DATA_SUCCESS, data};
 }
 
-export function loadHomepageData() {
+export function loadHomePageData() {
 	return function(dispatch) {
 		return "";
 	};
